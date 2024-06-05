@@ -34,7 +34,7 @@
   }
   .menu ul {
     display: flex;
-    padding-left: 210px;
+    padding-left: 200px;
   }
   .menu ul li {
     margin-top: -15px;
@@ -77,6 +77,18 @@ main .cart .cartFist .cart1 {
     padding: 9px;
     font-size: 14px;
   }
+}
+main .cart .cartFist .cart1:hover {
+  box-shadow: 5px 5px 10px #b3b7b4;
+}
+main .cart .cartFist .cart2:hover {
+  box-shadow: 5px 5px 10px #b3b7b4;
+}
+main .cart .cartFist .cart3:hover {
+  box-shadow: 5px 5px 10px #b3b7b4;
+}
+main .cart .cartFist .cart4:hover {
+  box-shadow: 5px 5px 10px #b3b7b4;
 }
 main .cart .cartFist .cart1 .imgs img {
   border-top-left-radius: 20px;
@@ -146,7 +158,7 @@ footer {
   width: 100%;
   height: 379px;
 }
-footer .footer a{
+footer .footer a {
   display: flex;
   justify-content: center;
 }
